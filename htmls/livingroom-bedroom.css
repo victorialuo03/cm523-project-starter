@@ -1,0 +1,156 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Navigation bar styles */
+  header {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .figure {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .title {
+    margin: 0;
+    color: #1e5631;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+    list-style: none;
+  }
+  
+  nav a {
+    color: #1e5631;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  body {
+    background-image: url("https://images.unsplash.com/photo-1677441564461-1b3e5bff781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 750;
+    font-style: normal;
+    text-align: center;
+    color: #281b0d;
+    padding: 0.75rem;
+  }
+  
+  h3 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #281b0d;
+  }
+  
+  .button-container {
+        display: flex;
+        justify-content: center;
+      }
+
+      .button1 {
+        background-color: transparent;
+        padding: 30px 50px;
+        color: #281b0d;
+        border-radius: 2rem;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        align-items: center;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        background: rgba(500, 500, 500, 0.66);
+        box-shadow: 0 1 rem 2rem 0 rgba(0, 0, 0, 0.1);
+      }
+      
+      .livingroomlogo {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 5px;
+      }
+      
+      .button-text {
+        font-size: 16px;
+        font-weight: bold;
+        color: #281b0d;
+        font-family: "Rubik", sans-serif;
+        text-align: center;
+      }
+     
+      .button2 {
+        background-color: transparent;
+        padding: 30px 50px;
+        color: #281b0d;
+        border-radius: 2rem;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        align-items: center;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        background: rgba(500, 500, 500, 0.66);
+        box-shadow: 0 1 rem 2rem 0 rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+
+      }
+
+      .button1:hover,
+      .button2:hover {
+        background-color: #f0a04b;
+      }
+
+      .bedroomlogo {
+        width: 100px;
+        height: 100px;
+        align-items: center;
+      }
+
+    
+    
