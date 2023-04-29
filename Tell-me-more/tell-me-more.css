@@ -1,0 +1,181 @@
+/* ===== YOUR CSS GOES HERE ===== */
+/* ===== START WITH GLOBAL STYLES THEN USE MEDIA QUERIES FOR LAYOUT ADJUSTMENTS ===== */
+
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *::before
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Navigation bar styles */
+  header {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    font-family: 
+  }
+  
+  body {
+    background-image: url(https://unsplash.com/photos/LdPzzJcrPLM)
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .figure {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .title {
+    margin: 0;
+    color: #1E5631;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  
+  }
+  
+  nav li {
+    margin: 0 10px;
+    list-style: none;
+  }
+  
+  nav a {
+    color: #1E5631;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  h2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 750;
+    font-style: normal;
+    text-align: center;
+    color: #281B0D;
+    padding: 0.75rem;
+  }
+  
+  
+  .intro {
+    max-width: 600px;
+    width: 600px;
+    padding: 40px;
+    margin: 0 auto;
+    text-align: left;
+    align-items: center;
+    background: rgba(500, 500, 500, 0.66);
+    box-shadow: 0 1 rem 2rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+  
+  h3 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #281B0D;
+    
+  }
+ 
+  .arrow {
+    border: solid #281B0D;
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+     top: 50%;
+    left: 50%;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  body {
+    background-image: url('https://images.unsplash.com/photo-1677441564461-1b3e5bff781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bagua {
+    margin-bottom: 100px;
+        max-width: 600px;
+        width: 600px;
+        padding: 40px;
+        margin: 0 auto;
+        text-align: left;
+        align-items: center;
+        background: rgba(500, 500, 500, 0.66);
+        box-shadow: 0 1 rem 2rem 0 rgba(0, 0, 0, 0.1);
+        border-radius: 2rem;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+
+  .thecomandingposition {
+    margin-bottom: 100px;
+        max-width: 600px;
+        width: 600px;
+        padding: 40px;
+        margin: 0 auto;
+        text-align: left;
+        align-items: center;
+        background: rgba(500, 500, 500, 0.66);
+        box-shadow: 0 1 rem 2rem 0 rgba(0, 0, 0, 0.1);
+        border-radius: 2rem;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+
+  .fiveelements {
+    margin-bottom: 100px;
+        max-width: 600px;
+        width: 600px;
+        padding: 40px;
+        margin: 0 auto;
+        text-align: left;
+        align-items: center;
+        background: rgba(500, 500, 500, 0.66);
+        box-shadow: 0 1 rem 2rem 0 rgba(0, 0, 0, 0.1);
+        border-radius: 2rem;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+
+  button {
+background-color: transparent;
+  padding: 10px 20px;
+  color: #281B0D;
+  border: solid #281B0D 1.75px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  align-items: center;
+  margin-right: 10px;
+  }
