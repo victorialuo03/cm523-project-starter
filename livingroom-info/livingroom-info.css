@@ -245,6 +245,7 @@ header {
     transform: translate(-50%, -50%) scale(1);
   }
   
+
   .modal-header {
     padding: 10px 15px;
     display: flex;
@@ -258,6 +259,11 @@ header {
     font-size: 1.25rem;
     font-weight: bold;
   }
+
+  .model-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
   
   .modal-header .close-button {
     cursor: pointer;
@@ -267,9 +273,18 @@ header {
     font-size: 1.25rem;
     font-weight: bold;
     
-    
   }
   
+  .model-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+    
+  }
   .modal-body {
     padding: 10px 15px;
   }
@@ -290,6 +305,15 @@ header {
   #overlay.active {
     opacity: 1;
     pointer-events: all;
+  }
+
+  
+  .modal-body {
+    font-family: "Rubik", sans-serif;
+  }
+
+  .title {
+    font-family: "Rubik", sans-serif;
   }
 
   
