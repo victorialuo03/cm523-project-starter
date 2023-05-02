@@ -103,22 +103,6 @@ html{
     color: #281B0D;
     
   }
- 
-  .arrow {
-    border: solid #281B0D;
-    border-width: 0 8px 8px 0;
-    display: inline-block;
-    padding: 20px;
-    margin: 0;
-    position: absolute;
-     top: 50%;
-    left: 50%;
-  }
-
-  .down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-  }
 
   body {
     background-image: url('https://images.unsplash.com/photo-1677441564461-1b3e5bff781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
@@ -168,7 +152,7 @@ html{
         border: 1px solid rgba(255, 255, 255, 0.125);
   }
 
-  button {
+button {
 background-color: transparent;
   padding: 10px 20px;
   color: #281B0D;
@@ -179,3 +163,28 @@ background-color: transparent;
   align-items: center;
   margin-right: 10px;
   }
+
+  .button0 {
+  background-color: rgba(500, 500, 500, 0.66);
+  padding: 10px 20px;
+  color: #281B0D;
+  border: transparent 1.75px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 5%);
+
+}
+
+.button0:hover {
+  background-color: #F0A04B;
+}
+
+.element::after {
+  content: "";
+  display: block;
+  height: 80px;
+}
