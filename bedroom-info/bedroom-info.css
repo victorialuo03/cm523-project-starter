@@ -11,7 +11,7 @@ html{
   }
 
   body {
-    background-image: url('livingroomfp.png') ;
+    background-image: url('bedroomfp.png') ;
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #E1EEDD;
@@ -199,6 +199,42 @@ header {
     margin-right: 10px;
   }
 
+  .button8 {
+    position: absolute;
+    top: 87%;
+    right: 29%;
+    transform: translateY(-50%);
+    display: block;
+    margin: 10px;
+    background-color: rgba(500, 500, 500, 0.66);
+    padding: 10px 20px;
+    color: #281B0D;
+    border: solid transparent 1.75px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  .button9 {
+    position: absolute;
+    top: 87%;
+    right: 29%;
+    transform: translateY(-50%);
+    display: block;
+    margin: 10px;
+    background-color: rgba(500, 500, 500, 0.66);
+    padding: 10px 20px;
+    color: #281B0D;
+    border: solid transparent 1.75px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
   .button1:hover {
     background-color: #F0A04B;
   }
