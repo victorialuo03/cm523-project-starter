@@ -1,0 +1,83 @@
+/* ===== YOUR CSS GOES HERE ===== */
+/* ===== START WITH GLOBAL STYLES THEN USE MEDIA QUERIES FOR LAYOUT ADJUSTMENTS ===== */
+
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *::before
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Navigation bar styles */
+  header {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    font-family: 
+  }
+  
+  body {
+    background-image: url(https://unsplash.com/photos/LdPzzJcrPLM)
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .figure {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .title {
+    margin: 0;
+    color: #1E5631;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  
+  }
+  
+  nav li {
+    margin: 0 10px;
+    list-style: none;
+  }
+  
+  nav a {
+    color: #1E5631;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  h2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 750;
+    font-style: normal;
+    text-align: center;
+    color: #281B0D;
+    padding: 0.75rem;
+  }
