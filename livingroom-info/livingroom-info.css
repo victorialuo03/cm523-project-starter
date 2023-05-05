@@ -348,18 +348,6 @@ header {
     font-family: "Rubik", sans-serif;
   }
 
-  @media screen and (max-width: 768px) {
-    .button {
-      top: 50px;
-      right: 50px;
-    }
-
-    .button {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-    }
-
     a {
       text-decoration: none;
       color:  #1E5631;
