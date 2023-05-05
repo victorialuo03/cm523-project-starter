@@ -145,7 +145,7 @@ body {
 
 @media screen and (min-width: 480px) {
 	.intro {
-		width: 80%;
+	width: 80%;
 	float: center;
 	}
 }
