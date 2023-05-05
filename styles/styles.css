@@ -24,6 +24,15 @@ body {
   background-size: cover;
 }
 
+a {
+  text-decoration: none;
+  color:  #1E5631;
+}
+
+a:hover {
+  color: #228c22;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -115,6 +124,7 @@ h3 {
   font-family: "Rubik", sans-serif;
   align-items: center;
   margin-right: 10px;
+  transition: 0.3s;
 }
 
 .button1:hover {
@@ -131,6 +141,7 @@ h3 {
   font-size: 16px;
   font-family: "Rubik", sans-serif;
   align-items: center;
+  transition: 0.3s;
 }
 
 .button2:hover {
@@ -148,4 +159,13 @@ body {
 	width: 80%;
 	float: center;
 	}
+}
+
+a {
+  text-decoration: none;
+  color:  #1E5631;
+}
+
+a:hover {
+  color: #228c22;
 }

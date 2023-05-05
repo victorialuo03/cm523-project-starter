@@ -162,6 +162,7 @@ background-color: transparent;
   font-family: "Rubik", sans-serif;
   align-items: center;
   margin-right: 10px;
+  transition: 0.3s;
   }
 
   .button0 {
@@ -187,4 +188,35 @@ background-color: transparent;
   content: "";
   display: block;
   height: 80px;
+}
+
+@media screen and (min-width: 480px) {
+	.intro {
+	width: 80%;
+	float: center;
+	}
+
+  .bagua {
+    width: 80%;
+    float: center;
+    }
+
+    .thecomandingposition {
+      width: 80%;
+      float: center;
+      }
+
+      .fiveelements {
+        width: 80%;
+        float: center;
+        }
+}
+
+a {
+  text-decoration: none;
+  color:  #1E5631;
+}
+
+a:hover {
+  color: #228c22;
 }

@@ -105,6 +105,7 @@ html {
         margin: auto;
         background: rgba(500, 500, 500, 0.66);
         box-shadow: 0 1 rem 2rem 0 rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
       }
       
       .livingroomlogo {
@@ -138,7 +139,7 @@ html {
         background: rgba(500, 500, 500, 0.66);
         box-shadow: 0 1 rem 2rem 0 rgba(0, 0, 0, 0.1);
         margin-top: 20px;
-
+        transition: 0.3s;
       }
 
       .button1:hover,
@@ -153,4 +154,11 @@ html {
       }
 
     
-    
+      a {
+        text-decoration: none;
+        color:  #1E5631;
+      }
+      
+      a:hover {
+        color: #228c22;
+      }

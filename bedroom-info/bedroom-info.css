@@ -89,6 +89,7 @@ header {
     font-family: "Rubik", sans-serif;
     align-items: center;
     margin-right: 10px;
+    transition: 0.3s;
   }
 
   .button2 {
@@ -107,6 +108,7 @@ header {
     font-family: "Rubik", sans-serif;
     align-items: center;
     margin-right: 10px;
+    transition: 0.3s;
   }
 
   .button3 {
@@ -125,6 +127,7 @@ header {
     font-family: "Rubik", sans-serif;
     align-items: center;
     margin-right: 10px;
+    transition: 0.3s;
   }
 
   .button4 {
@@ -143,6 +146,7 @@ header {
     font-family: "Rubik", sans-serif;
     align-items: center;
     margin-right: 10px;
+    transition: 0.3s;
   }
 
   .button5 {
@@ -161,6 +165,7 @@ header {
     font-family: "Rubik", sans-serif;
     align-items: center;
     margin-right: 10px;
+    transition: 0.3s;
   }
 
   .button6 {
@@ -179,6 +184,7 @@ header {
     font-family: "Rubik", sans-serif;
     align-items: center;
     margin-right: 10px;
+    transition: 0.3s;
   }
 
   .button7 {
@@ -197,6 +203,7 @@ header {
     font-family: "Rubik", sans-serif;
     align-items: center;
     margin-right: 10px;
+    transition: 0.3s;
   }
 
 .button0 {
@@ -215,6 +222,7 @@ header {
     font-family: "Rubik", sans-serif;
     align-items: center;
     margin-right: 10px;
+    transition: 0.3s;
 }
 
   .button1:hover {
@@ -347,4 +355,11 @@ header {
     font-family: "Rubik", sans-serif;
   }
 
+  a {
+    text-decoration: none;
+    color:  #1E5631;
+  }
   
+  a:hover {
+    color: #228c22;
+  }
